@@ -10,3 +10,9 @@ body {
   background-image: url("./assets/images/CookingBG.jpg");
   background-position: center;
 }
+
+@media (max-width: 524px) {
+  html {
+    font-size: 50%;
+  }
+}
