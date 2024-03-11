@@ -10,7 +10,7 @@ export default function Header() {
       {error && <h1 className="text-red-500 font-bold text-3xl">{error}</h1>}
       {data && (
         <div className="bg-hero">
-          <header className="flex items-center justify-between p-4 text-slate-600  mb-4">
+          <header className="flex items-center justify-between p-4 text-slate-600  mb-6">
             <div className="flex items-center">
               <a
                 href={`https://www.youtube.com/channel/${channelId}`}
