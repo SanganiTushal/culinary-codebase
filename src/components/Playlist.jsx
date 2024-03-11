@@ -5,7 +5,7 @@ export default function Playlist() {
   return (
     <>
       {data && (
-        <section className="my-8 mx-4">
+        <section className="my-10 mx-4">
           <h2 className="text-4xl font-bold mb-6 text-amber-500 border-b border-gray-400 inline-block">
             Popular Playlists
           </h2>

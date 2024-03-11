@@ -9,7 +9,7 @@ export default function Header() {
     <>
       {error && <h1 className="text-red-500 font-bold text-3xl">{error}</h1>}
       {data && (
-        <div className="bg-hero">
+        <div className="bg-hero mb-10">
           <header className="flex items-center justify-between p-4 text-slate-600  mb-6">
             <div className="flex items-center">
               <a
@@ -53,7 +53,15 @@ export default function Header() {
               A Wide Range Of Delicious Recipes
             </h1>
             <p className="text-lg text-slate-500">
-              {data.channelInfo.snippet.description}
+              Welcome to "Tushal Ni Rasoi" – the heart and soul of Indian
+              culinary exploration! 🍲🌶️ Join me in my kitchen as I unlock the
+              secrets of authentic Indian recipes, blending tradition with a
+              modern twist. From the sizzle of spices to the simmering of
+              curries, my channel is your go-to destination for a flavorful
+              journey through the diverse and vibrant tapestry of Indian
+              cuisine. Subscribe now to "Tushal Ni Rasoi" and let's embark on a
+              delicious adventure together, where every recipe tells a story and
+              every bite is a taste of India's rich culinary heritage! 🌶️🔥✨
             </p>
           </div>
         </div>
