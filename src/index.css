@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.bg-hero {
+  background-image: url("./assets/images/CookingBG.jpg");
+  background-position: center;
+}
