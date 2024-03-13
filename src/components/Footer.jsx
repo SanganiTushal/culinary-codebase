@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <>
       {data && (
-        <footer className="py-4 bg-amber-300 mx-4">
+        <footer className="py-4 bg-amber-500 mx-4">
           <div className="flex items-center justify-center space-x-4 text-slate-500">
             {/* YouTube Channel Link */}
             <a
